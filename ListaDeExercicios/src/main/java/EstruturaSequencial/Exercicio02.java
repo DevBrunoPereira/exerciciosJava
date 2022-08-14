@@ -21,9 +21,6 @@ public class Exercicio02 {
         altura = ler.nextFloat();
         
         System.out.println("\n\nNome: "+ nome +"\nIdade: " + idade + "\nAltura: " + altura);
-        
-       
-        System.out.print("Digite sua idade: ");
                 
         
         ler.close();
