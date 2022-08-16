@@ -9,6 +9,9 @@ public class Exercicio08 {
         //trabalhadas no mês. Calcule e mostre o 
         //total do seu salário no referido mês.
         
+        float horaTrabalhada;
+        float diasTrabalhado;
+        float valorHora;
         
         
         Scanner sc = new Scanner(System.in);
