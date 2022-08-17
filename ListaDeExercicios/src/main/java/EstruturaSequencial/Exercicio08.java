@@ -8,16 +8,12 @@ public class Exercicio08 {
         //você ganha por hora e o número de horas 
         //trabalhadas no mês. Calcule e mostre o 
         //total do seu salário no referido mês.
-        
+        Scanner sc = new Scanner(System.in);
         float horaTrabalhada;
         float diasTrabalhado;
         float valorHora;
-        
-        
-        Scanner sc = new Scanner(System.in);
-        
-        
-        
+        System.out.println("Informe o valor do Hora trabalhada");
+                
         sc.close();
     }
 }
