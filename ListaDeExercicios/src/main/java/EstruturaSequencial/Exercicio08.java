@@ -12,8 +12,22 @@ public class Exercicio08 {
         float horaTrabalhada;
         float diasTrabalhado;
         float valorHora;
-        System.out.println("Informe o valor do Hora trabalhada");
-                
+        float salario;
+        System.out.print("Informe o quantidade de Horas trabalhada no dia: ");
+        horaTrabalhada = sc.nextFloat();
+        
+        System.out.print("Informe quantidade de dias Trabalhado: ");
+        diasTrabalhado = sc.nextFloat();
+        
+        System.out.print("Informe o valor da Hora Trabalhada: ");
+        valorHora = sc.nextFloat();
+        
+        //Formula para salario
+        
+        salario = (horaTrabalhada * diasTrabalhado) * valorHora;
+        
+        System.out.println("Salario: " + salario);
+        
         sc.close();
     }
 }
