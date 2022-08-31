@@ -13,11 +13,15 @@ public class Exercicio10 {
         Scanner sc = new Scanner(System.in);
         
         
-        float celsius, fahrenheit;
+        float celsius, fahrenheit, valorCesius, valorFare;
+        float valor1 = 32;
+        float valor2 = 9;
+
+
         System.out.print("Digite o valor em Celsius: ");
         celsius = sc.nextFloat();
+        valorCesius = celsius / 5;
         
-        
-        sc.close();
+
     }
 }
