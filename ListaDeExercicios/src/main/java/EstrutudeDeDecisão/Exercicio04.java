@@ -12,8 +12,11 @@ public class Exercicio04 {
         letra = sc.next().toUpperCase();
         System.out.println("A letra Digitada foi: " + letra);
 
-        if("A".equalsIgnoreCase(letra) || "e".equalsIgnoreCase(letra) || "i".equalsIgnoreCase(letra)){
-
+        if("A".equalsIgnoreCase(letra) || "e".equalsIgnoreCase(letra) || "i".equalsIgnoreCase(letra) || "o".equalsIgnoreCase(letra) || "o".equalsIgnoreCase(letra)){
+            System.out.println("Vogal");
+        }
+        else{
+            System.out.println("Consoante");
         }
 
     }
